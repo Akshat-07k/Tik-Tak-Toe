@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+}
+
+body {
+  /* background-color: #E61D8C; */
+}
+
+header {
+  position: sticky;
+  display: flex;
+  /* background-color: #E5BDF6; */
+  /* background: rgb(207, 159, 255); */
+  align-items: center;
+  background-color: transparent !important;
+  height: 110px;
+  /* position: fixed; */
+  left: 0;
+  right: 0;
+  top: 0;
+  justify-content: start;
+  transition: bl;
+}
+
+header div {
+  margin-left: 30px;
+  background-color: rgb(200, 200, 200);
+  padding: 3px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-block: auto;
+  font-size: 20px;
+}
+
+main {
+  /* margin-top: 110px; */
+  display: flex;
+  /* background-color: #6E45E1; */
+  background: rgb(224, 176, 255);
+  opacity: 1;
+  height: 800px;
+}
+
+.mainLeft {
+  width: 45vw;
+
+}
+
+.mainLeftBox {
+  display: grid;
+  flex-wrap: wrap;
+  /* background-color: yellowgreen; */
+  margin-top: 2vw;
+  grid-template-rows: repeat(3, 10vw);
+  grid-template-columns: repeat(3, 10vw);
+  margin-left: 4vw;
+  width: 30vw;
+
+}
+
+.box {
+  /* background-color: rgb(119, 11, 119); */
+  background: rgb(218, 112, 214);
+  border: 2px black solid;
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  /* justify is useful in but work only in flex;*/
+}
+
+.box:hover {
+  background-color: rgb(187, 137, 234);
+  opacity: 0.5;
+}
+
+.reset {
+  border-radius: 2rem;
+  padding: 5px;
+  background-color: rgb(127, 0, 255);
+  /* width: 5vw;
+    height:4vw; */
+  height: 6vw;
+  width: 6vw;
+  font-size: 25px;
+  margin-left: 15vw;
+  margin-top: 3vw;
+}
+
+.mainRight {
+  width: 60vw;
+  display: flex;
+  /* background-color: burlywood; */
+}
+
+.panda {
+  height: 20vw;
+  /* display:none; */
+}
+
+
+.bt-0 {
+  border-top: 0;
+}
+
+.bb-0 {
+  border-bottom: 0;
+}
+
+.bl-0 {
+  border-left: 0;
+}
+
+.br-0 {
+  border-right: 0;
+}
+
+
+.reset:hover {
+  background-color: #66FF00;
+  shape-outside: margin-box;
+}
+
+.heading {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
+}
+
+.heading {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.update {
+  text-align: center;
+
+}
+
+.panda69 {
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid purple;
+  border-radius: 3rem;
+  width: fit-content;
+  background-color: rgb(191, 64, 191);
+}
